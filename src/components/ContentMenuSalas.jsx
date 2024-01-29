@@ -13,12 +13,12 @@ const ContentMenuSalas = () => {
             </Typography>
 
 
-            <Box sx={{ mt: 3, padding: '19px 24px 0 24px' }}>
+            <Box  bgcolor = "pink" sx={{ mt: 3, padding: '24px'}} >
 
-                <Grid container spacing={2}>
+                <Grid container spacing={2} > 
 
-                    <Grid item md={6}>
-                        <Card>
+                    <Grid item md={6} >
+                        <Card >
                             <CardMedia
                                 component="img"
                                 image="https://static.wikia.nocookie.net/doblaje/images/9/93/Alice_la_gemela_del_diablo_portada.jpg"
@@ -41,7 +41,7 @@ const ContentMenuSalas = () => {
                         </Card>
                     </Grid>
 
-                    <Grid item md={6}>
+                    <Grid item md={6} sx={{ marginBottom: 1 }}>
                         <Card>
                             <CardMedia
                                 component="img"
@@ -64,7 +64,7 @@ const ContentMenuSalas = () => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    <Grid item md={6}>
+                    <Grid item md={6} sx={{ marginBottom: 1 }}>
                         <Card>
                             <CardMedia
                                 component="img"
@@ -85,7 +85,7 @@ const ContentMenuSalas = () => {
                         </Card>
                     </Grid>
 
-                    <Grid item md={6}>
+                    <Grid item md={6} sx={{ marginBottom: 1,  }}>
                         <Card>
                             <CardMedia
                                 component="img"
